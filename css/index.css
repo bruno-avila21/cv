@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --blanco:#FFFFFF;
+    --facebook:#3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --linkedin:#007785;
+    --google:#c40e30;
+}
+
+.redes-container svg{
+    color:#Ffffff;
+    filter: blur(1px);
+}
+
+.bi-facebook:hover{
+    color:var(--facebook);
+    transform: translateY(-3px) scale(1.2);
+    filter: none;
+}
+
+.bi-twitter:hover {
+    color:var(--twitter);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.bi-instagram:hover{
+    color:var(--instagram);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.bi-linkedin:hover{
+    color:var(--linkedin);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.bi-google:hover{
+    color:var(--google);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.columna-color{
+    background: linear-gradient(to bottom, var(--bs-dark), var(--bs-gray-dark));
+}
+
+.imagen-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bi-envelope:hover{
+    color:var(--blanco);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.bi-house:hover{
+    color:var(--blanco);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+.bi-phone:hover{
+    color:var(--blanco);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
