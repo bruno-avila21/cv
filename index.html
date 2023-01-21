@@ -21,8 +21,7 @@
 <body>
     <header>
         <nav class="navbar navbar-dark bg-dark">
-                    <div class="col-12 col-md-5 col-lg-3 display-6 text-white text-center" id="name">
-
+                    <div class="col-12 col-md-4 col-lg-4 display-6 text-white text-center" id="name">
                     </div>
 
                     <div class="col-12 col-md-5 col-lg-4 redes-container">
@@ -72,20 +71,20 @@
     
     <div class="container-fluid">
         <div class="row border-top border-bottom border-white">
-            <div class="col-12 col-md-4 col-lg-3 columna-izquierda columna-color">
+            <div class="col-12 col-md-4 col-lg-4 columna-izquierda columna-color">
 
                 <div class="container-fluid ">
                     <div class="row">
 
                         <div class="col-12 imagen-container">
-                            <img class="img-fluid mt-3" src="https://randomuser.me/api/portraits/women/1.jpg" alt="" id="img-perfil">
+                            <img class="img-fluid mt-3" src="" alt="Imagen del perfil" id="img-perfil">
                         </div>
 
                         <div class="col-12 border-bottom border-white">
                             <div class="row text-white">
                                 <p class="display-4 col-12 text-center">Perfil</p>
-                                <p class="col-12">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit magni nihil esse dolorum dolorem tenetur explicabo in veniam nesciunt aut, laudantium, maxime perspiciatis incidunt? Modi architecto illum laborum quisquam?
+                                <p class="col-12" id="descripcion_perfil">
+                                
                                 </p>
                             </div>
                             
@@ -118,6 +117,16 @@
 
                                       <p class="text-center" id="telefono"></p>
                                 </div>
+
+                                <div class="row mt-1 fecha">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date col-12" viewBox="0 0 16 16">
+                                        <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                                    </svg>
+
+                                    <p class="text-center" id="fecha"></p>
+                                </div>
+                                
                             </div>
                         </div>
 
@@ -128,11 +137,12 @@
                                 </div>
 
                                 <div>
-                                    <ul>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
-                                        <li>Lorem ipsum dolor sit amet</li>
+                                    <ul class="list-unstyled" id="lista-habilidades">
+                                        <li id="item-habilidad"></li>
+                                        <li id="item-habilidad"></li>
+                                        <li id="item-habilidad"></li>
+                                        <li id="item-habilidad"></li>
+                                        <li id="item-habilidad"></li>
                                     </ul>
                                 </div>
                             </div>
@@ -143,37 +153,35 @@
 
             </div>
     
-            <div class="col-12 col-md-8 col-lg-9 columna-derecha">
+            <div class="col-12 col-md-8 col-lg-8 columna-derecha">
                 
                 <div class="container">
                     <div class="row text-center">
-                        <div class="nombre_oficio col-12 border-bottom border-dark" >
+                        <div class="nombre_oficio col-12 border-bottom border-dark mt-4" >
                             <p class="display-6" id="nombre"></p>
                             <p id="oficio">Oficio</p>
                         </div>
                         <div class="formacion col-12 mt-5">
                             <p class="text-start h6">Formación</p>
                             <div class="border-top border-start border-dark">
-                                <dl>
+                                <dl id="lista-formacion">
                                     <dt>Lorem</dt>
-                                    <dd> -Descripcion</dd>
+                                    <dd id="descripcion-colegio"> -Descripcion</dd>
                                     <dt>Lorem</dt>
-                                    <dd> -Descripcion</dd>
-                                    <dt>Lorem</dt>
-                                    <dd> -Descripcion</dd>
+                                    <dd id="descripcion-universidad"> -Descripcion</dd>
                                 </dl>
                             </div>
                         </div>
                         <div class="experiencia col-12 mt-5 ">
                             <p class="text-start h6">Experiencia</p>
                             <div class="border-top border-start border-dark">
-                                <dl>
+                                <dl class="list-group list-group-flush " id="lista-experiencia">
+                                    <dt class="list-group-item" id="cargo">Cargo</dt>
+                                    <dd class="list-group-item lista-cargo text-start"></dd>
+                                <!--<dt class="list-group-item">Cargo</dt> 
+                                    <dd class="list-group-item"> -Descripcion</dd>
                                     <dt>Cargo</dt>
-                                    <dd> -Descripcion</dd>
-                                    <dt>Cargo</dt>
-                                    <dd> -Descripcion</dd>
-                                    <dt>Cargo</dt>
-                                    <dd> -Descripcion</dd>
+                                    <dd> -Descripcion</dd> -->
                                 </dl>
                             </div>
                         </div>
@@ -182,12 +190,12 @@
                             <p class="text-start h6">Competencias</p>
 
                             <div class="border-top border-start border-dark">
-                                <ul class="list-unstyled">
-                                    <li>Lorem ipsum</li>
-                                    <li>Lorem ipsum</li>
-                                    <li>Lorem ipsum</li>
-                                    <li>Lorem ipsum</li>
-                                    <li>Lorem ipsum</li>
+                                <ul class="list-unstyled" id="lista-competencia">
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
                                 </ul>
                             </div>
                             
@@ -216,7 +224,7 @@
                     <p class="h5 mb-3">Curso Realizado</p>
                     
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Ticmas - Desarrollo Web</a>
+                        <p class="text-secondary text-decoration-none" href="#">Ticmas - Desarrollo Web</p>
                     </div>
                 </div>
 
@@ -224,13 +232,13 @@
                     <p class="h5 mb-3">Páginas Guia</p>
 
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">W3school</a>
+                        <a class="text-secondary text-decoration-none" href="https://w3schools.com/" target="_blank">W3school</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Developer Mozilla</a>
+                        <a class="text-secondary text-decoration-none" href="https://developer.mozilla.org/es/" target="_blank">Developer Mozilla</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Bootstrap</a>
+                        <a class="text-secondary text-decoration-none" href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
                     </div>
 
                 </div>
@@ -239,13 +247,13 @@
                     <p class="h5 mb-3">Contacto</p>
 
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Gmail</a>
+                        <a class="text-secondary text-decoration-none" href="#" target="_blank">Gmail</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Linkedin</a>
+                        <a class="text-secondary text-decoration-none" href="https://www.linkedin.com/in/bruno-avila-d/" target="_blank">Linkedin</a>
                     </div>
                     <div class="mb-2">
-                        <a class="text-secondary text-decoration-none" href="#">Instagram</a>
+                        <a class="text-secondary text-decoration-none" href="#" target="_blank">Instagram</a>
                     </div>
                 </div>
                 <div class="col-xs-12 pt-4">
@@ -256,7 +264,7 @@
         </div>
     </footer>
 
-
+    <script src="js/datos.js"></script>
     <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

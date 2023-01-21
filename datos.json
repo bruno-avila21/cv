@@ -1,0 +1,97 @@
+{
+    "descripcion":[
+        "Profesional de ventas experimentado en búsqueda de un puesto como gerente de ventas en una empresa de rápido crecimiento donde pueda vincular mis habilidades de comunicación y persuasión, junto con mi pasión por ayudar a la empresas a mejorar su alcance en el área comercial"
+        ,
+        "Profesional con cinco años de experiencia en recursos humanos que busca aprovechar sus amplios conocimientos en el ámbito de las relaciones con los empleados y los negocios en una posición centrada en el cliente para garantizarles una experiencia positiva"
+        ,
+        "Profesional con experiencia en la industria administrativa, en búsqueda de una oportunidad laboral que me permita mejorar el flujo de trabajo y los procesos en un entorno de oficina, gracias a la aplicación de mis cinco años de experiencia en el área y excelentes habilidades de comunicación"
+        ,
+        "Profesional con tres años de experiencia en la industria bancaria en búsqueda de un puesto dentro de una empresa de servicios financieros para aplicar mi educación y competencias técnicas para promover el éxito de la organización. Todo esto mediante la aplicación de sólidas habilidades de resolución de problemas, comunicación y servicio al cliente"
+    
+    ],
+
+    "habilidades":[
+        "Office",
+        "HTML / CSS",
+        "Javascript",
+        "Java",
+        "Git",
+        "Planificación y organización",
+        "Pensamiento crítico",
+        "Habilidades para resolver problemas",
+        "Trabajo en equipo",
+        "Habilidades de liderazgo",
+        "Gestión del tiempo",
+        "Orientación a resultados",
+        "Pensamiento analítico"
+    ],
+
+   
+    "formacion_colegio":[       
+            "Escuela Ecológica “Planeta Verde”",
+            "Instituto Educativo William Shakespeare",
+            "Colegio Católico San Juan Pablo II",
+            "Abraham Lincoln School",
+            "Instituto Escuela Mexicano Británico",
+            "Colegio Científico Albert Einstein",
+            "Escuela Deportiva Cristiano Ronaldo",
+            "Colegio Simón Bolívar",
+            "Instituto Técnico Henry Ford"
+        ],
+
+    "formacion_universidad":[
+        "Universidad Complutense, Madrid",
+        "Universidad Pontificia, Salamanca",
+        "Universidad Politécnica de Ingeniería de Gijón"
+        ],
+
+    "formacion_curso":[
+        "Curso de Asistente Administrativo Contable",
+        "Curso de Diseño para Redes Sociales"
+    ],
+
+    "experiencias":[
+        {
+        "oficio":"Programador",
+        "trabajo": "Programador Web",
+        "descripcion":[
+                "Dirigí 25 proyectos de programación en el año 2021.",
+                "Diseñé el sitio web de la Revista Actualidad y logré aumentar su tráfico diario en un 25 %.",
+                "Colaboré con diferentes profesionales, como copywriters creativos y diseñadores.",
+                "Desarrollé el sistema de facturación de 13 pymes."
+            ]
+        },
+        {
+            "oficio":"Especialista en Comunicación Audiovisual",
+            "trabajo":"Directora y desarrolladora",
+            "descripcion":[
+                "Dirección, desarrollo y ensamblaje de vídeos publicitarios para el canal internet.",
+                "Diseño técnico y guionista de video publicidad.",
+                "Dirección, presentación y montaje de vídeos didácticos destinados al canal «Youtube»."
+            ]
+        },
+        {
+            "oficio":"Analista Financiero",
+            "trabajo":"Analista Financiero",
+            "descripcion":[
+                "Preparé informes mensuales que incluyeron los indicadores operativos más importantes.", 
+                "Apliqué KPIs financieros que permitieron evaluar las acciones de la empresa.",
+                "Realicé seguimiento al presupuesto de la empresa con el objetivo de asegurar su cumplimiento y la transparencia en su aplicación."
+            ]
+        }
+        ],
+
+    "competencias":[
+        "Habilidades mecánicas",
+        "Pensamiento critico",
+        "Habilidades matemáticas",
+        "Orientado al detalle",
+        "Trabajo con equipos multidisciplinarios",
+        "Uso y análisis de base de datos.",
+        "Ecualización",
+        "Coordinación de procesos de análisis de costes",
+        "Conocimientos en contabilidad"
+    ]
+
+    
+}

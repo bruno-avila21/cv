@@ -73,3 +73,22 @@
     transform: translateY(-3px) scale(1.05);
     filter: none;
 }
+
+.bi-calendar-date:hover{
+    color:var(--blanco);
+    transform: translateY(-3px) scale(1.05);
+    filter: none;
+}
+
+#lista-formacion p{
+    margin-bottom: 1px;
+}
+
+#lista-experiencia p{
+    margin-bottom: 1px;
+}
+
+.lista-cargo{
+    list-style: disc;
+}
+
