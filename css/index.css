@@ -11,6 +11,10 @@
     --google:#c40e30;
 }
 
+#description{
+    resize: none;
+}
+
 .redes-container svg{
     color:#Ffffff;
     filter: blur(1px);

@@ -16,15 +16,9 @@ function cargarJSON(){
 
       let datos = JSON.parse(this.responseText);
 
-      //Agrega descripcion al perfil
-
       agregarDescripcionPerfil(datos);
 
-      //Agrega info en Habilidades, sin repetir
-
       agregarHabilidades(datos);
-      
-      //Agrega info en Formacion
 
       agregarFormacion(datos); 
       
@@ -162,31 +156,31 @@ function cargarDatos(){
       console.log(datos);
 
 
-      //Para el nombre en el nav
+      
       let nombre= document.getElementById('name');
 
       nombre.innerHTML='';
 
-      //Para telefono dentro de informacion
+
 
       let telefono=document.getElementById("telefono");
 
-      //Para direccion dentro de informacion
+
 
       let direccion=document.getElementById("direccion");
 
-      //Para email dentro de informacion
+
 
       let email=document.getElementById("email");
 
-      //Para el nombre dentro de informacion
+      
       let name= document.getElementById("nombre");  
 
-      //Para fecha nacimiento dentro de informacion
+      
 
       let fecha=document.getElementById("fecha");
 
-      //Para los datos de formacion
+
 
       let descripcion_colegio=document.getElementById("descripcion-colegio");
 
@@ -206,11 +200,7 @@ function cargarDatos(){
         agregarDatosPerfil(item, name, telefono, direccion, email,fecha);
         
         agregarDescripcionFormacion(item, descripcion_colegio, descripcion_universidad,descripcion_experiencia);
-        
-      /*
-        edad.textContent=`
-        ${item.dob.age}
-        `*/
+       
      
       }
     }
@@ -282,4 +272,3 @@ window.onload=function(){
   cargarJSON();
 }
 
-  
